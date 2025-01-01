@@ -93,18 +93,3 @@ class Library(Book, Users):
         else:
             print("User not found.")
 
-
-
-library = Library()
-# b1 = Book("Atomic Habits","James Clear",9783442178582)
-# b2 = Book("Harry Potter","J.K. Rowling",9780590353427)
-# library.add_book(b2)
-# library.add_book(Book("Narein Boddapati","Narein",5134882192))
-# library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 9780743273565))
-# # library.list_books()
-# library.borrow_book(5134882192)
-# library.return_book(5134882192)
-
-library.add_user(Users(123,"Narein","nareinbod@gmail.com"))
-library.list_users()
-library.update_user(123)
